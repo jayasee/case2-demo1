@@ -1,9 +1,7 @@
 # Workflow Name
 name : First Workflow
 # Trigger
-on : 
-  push :
-  workflow_dispatch:
+on : push
  
 jobs:
   Hello-job:
