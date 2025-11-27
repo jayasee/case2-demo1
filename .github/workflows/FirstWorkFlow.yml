@@ -13,6 +13,8 @@ jobs:
      steps:
        - name : Hello World
          run : echo "Hello World"
+       - name : Event Name
+         run : echo "Event Name ${github.event}" # context reference
   
 # Second Job
   echo-Goodbye:
